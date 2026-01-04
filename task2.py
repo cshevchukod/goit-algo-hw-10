@@ -16,7 +16,7 @@ def monte_carlo_integral(func, a, b, n=100000):
     return (b - a) * (s / n)
 
 
-def main():
+def task2():
     a = 0
     b = 2
     n = 100000
@@ -35,4 +35,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    task2()
